@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		 <link rel="stylesheet" href="css/head.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+
+	<body>
+<div class="dvhead">
+	<div class="dvlogo"><a href="index.html">XXXX</a></div>
+</div>
+		<section  class="sec">
+			<form action="login-m.php" method="post">
+				<div class="register-box">
+				  <label for="username" class="username_label">
+				    账 号
+					<input name="userName" type="text"
+						placeholder="输入您的账号" maxlength="20" />
+				  &nbsp; &nbsp; &nbsp; </label>
+					<div class="tips">
+					</div>
+			  </div>
+				<div class="register-box">
+					<label for="username" class="other_label">
+					  密 码
+					    <input name="pwd" type="password"
+						placeholder="输入您的密码" maxlength="20" />
+</label>
+					<div class="tips">
+
+					</div>
+				</div>
+<div class="register-box">
+		<label for="username" class="other_label">
+					验证码
+		  <input maxlength="20" type="text" name="yzm" placeholder="请输入验证码" />
+				</label>
+					<span id="code"><img src="verify.php" style="vertical-align:middle;width:70px;height: 30px " /></span>
+					<div class="tips">
+
+					</div>
+				</div>
+				<div class="arguement">
+					<a href="register.html" class="register" style="margin-left: 280px; margin-right: auto; margin-top: auto;">没有账号,立即注册</a>
+					<div class="tips">
+					</div>
+				</div>
+				<div class="submit_btn">
+					<button type="submit" name="submit" id="submit_btn">
+					立 即 登 录
+				</button>
+				</div>
+			</form>
+		</section>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
